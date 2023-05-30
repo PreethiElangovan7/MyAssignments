@@ -1,19 +1,26 @@
-package week1.day2;
+package week3.day2;
 
-public class Student {
+public class Student extends Department{
 	
-	
-		
-
-	public String studentName = "preethi";
-	public int rollNo = 777;
-	public String collegeName = "Testleaf";
-	public int markScored = 90;
-	public float cgpa = 9.0f;
-	
-	
-	
-
+	public void studentName() {
+		System.out.println("Print the student name");
 	}
+	public void studentDept() {
+		System.out.println("Print the student department");
+	}
+	public void studentId() {
+		System.out.println("Print the student id");
+	}
+	public static void main(String[] args) {
+		Student S1 = new Student();
+		S1.collegeCode();
+		S1.collegeName();
+		S1.collegeRank();
+		S1.deptName();
+		S1.studentName();
+		S1.studentId();
+		S1.studentId();
+	}
+	
 
-
+}
